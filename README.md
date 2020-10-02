@@ -54,7 +54,7 @@ Policing crime in the United States has long been a highly controversial practic
 
 <img width="1446" alt="Screen Shot 2020-10-01 at 10 23 44 PM" src="https://user-images.githubusercontent.com/64563191/94905081-4b38f300-046a-11eb-824c-8214fd6bf0ba.png">
 
-Model 11 was chosen due to best performance with minimum number of features. This model was a grid search decision tree model. I arrived at 24 features by conducting recursive feature elimination with a logistic regression model and then running an earlier iteration of the decision tree grid search model. I then selected the top 15 features from this model and combined them with the 15 from the RFECV logistic regression model. I inserted these features into this grid search decision tree model for optimal performance.
+**Model 11** was chosen due to best performance with minimum number of features. This model was a grid search decision tree model. I arrived at 24 features by conducting recursive feature elimination with a logistic regression model and then running an earlier iteration of the decision tree grid search model. I then selected the top 15 features from this model and combined them with the 15 from the RFECV logistic regression model. I inserted these features into this grid search decision tree model for optimal performance.
 
 Twenty-nine features were found to be most predictive of an arrest. They are grouped below into a few  themes in no particular order:
 - Physical characteristics: Age and weight were among the strongest predictors of arrest.
