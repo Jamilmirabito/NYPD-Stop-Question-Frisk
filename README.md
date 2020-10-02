@@ -74,15 +74,39 @@ Twenty-nine features were found to be most predictive of an arrest. They are gro
 
 **Among suspects in ongoing investigations, roughly 20% - 25% of individuals are arrested**
 
+![download-8](https://user-images.githubusercontent.com/64563191/94903851-686cc200-0468-11eb-9f1c-4837f0052729.png)
+
+**Precincts 13, 52, and 61 were identified as strong predictors of arrest, but only precinct 13 makes the top 30 for total arrests in 2016**
+
+![download-12](https://user-images.githubusercontent.com/64563191/94903855-69055880-0468-11eb-85d4-835f8701802f.png)
+
+- Precinct 13: Serving a southern portion of Midtown, Manhattan. The precinct features the Peter Cooper Village/Stuyvesant Town residential complex, Gramercy Park, the lower portion of Rosehill, Madison Square Park, and Union Square Park.
+- Precinct 52: Serving a northern portion of the Bronx. The precinct is home to Bedford Park, Fordham, Kingsbridge, Norwood, Bronx Park, and University Heights.
+- Precinct 61: Serving a southern portion of Brooklyn and encompasses Kings Bay, Gravesend, Sheepshead Bay, and Manhattan Beach.
+
+**Whether someone is searched is a strong predictor of arrest**
+
+![download-10](https://user-images.githubusercontent.com/64563191/94903853-69055880-0468-11eb-970d-d83dc693a7c4.png)
+
+**Admission by suspect results in the highest likelihood of arrest from a search**
+
+![download-13](https://user-images.githubusercontent.com/64563191/94903856-69055880-0468-11eb-8833-3657590708f7.png)
+
+**Possession of a weapon is a very strong predictor of arrest**
+
+![download-6](https://user-images.githubusercontent.com/64563191/94903849-686cc200-0468-11eb-8498-66a879d901d8.png)
+
+**Each of the features below make the list for optimal feature importance, but criminal trespass and theft of services result in the highest likelihood of arrest**
+
+
 
 
 ![download-11](https://user-images.githubusercontent.com/64563191/94903854-69055880-0468-11eb-8830-68a35b960481.png)
-![download-10](https://user-images.githubusercontent.com/64563191/94903853-69055880-0468-11eb-970d-d83dc693a7c4.png)
+
 
 ![download-5](https://user-images.githubusercontent.com/64563191/94903848-67d42b80-0468-11eb-8555-b4360d3abd3a.png)
 ![download-6](https://user-images.githubusercontent.com/64563191/94903849-686cc200-0468-11eb-8498-66a879d901d8.png)
 ![download-9](https://user-images.githubusercontent.com/64563191/94903852-686cc200-0468-11eb-8c5d-f155542fd868.png)
 
-![download-11](https://user-images.githubusercontent.com/64563191/94903854-69055880-0468-11eb-8830-68a35b960481.png)
 ![download-12](https://user-images.githubusercontent.com/64563191/94903855-69055880-0468-11eb-85d4-835f8701802f.png)
-![download-13](https://user-images.githubusercontent.com/64563191/94903856-69055880-0468-11eb-8833-3657590708f7.png)
+
