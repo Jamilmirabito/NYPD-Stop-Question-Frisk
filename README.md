@@ -52,13 +52,37 @@ Policing crime in the United States has long been a highly controversial practic
 
 **Model Performance:**
 
+<img width="1446" alt="Screen Shot 2020-10-01 at 10 23 44 PM" src="https://user-images.githubusercontent.com/64563191/94905081-4b38f300-046a-11eb-824c-8214fd6bf0ba.png">
+
+Model 11 was chosen due to best performance with minimum number of features. This model was a grid search decision tree model. I arrived at 24 features by conducting recursive feature elimination with a logistic regression model and then running an earlier iteration of the decision tree grid search model. I then selected the top 15 features from this model and combined them with the 15 from the RFECV logistic regression model. I inserted these features into this grid search decision tree model for optimal performance.
+
+Twenty-nine features were found to be most predictive of an arrest. They are grouped below into a few  themes in no particular order:
+- Physical characteristics: Age and weight were among the strongest predictors of arrest.
+- Police Use-of-Force: Officers tend to use force in instances where they are going to arrest an individual. Force is often used in response to resistance (in most cases).
+- Ongoing investigation: Whether the suspect was already being surveilled for involvement in a previous crime or if they fit a description of someone who committed a crime.
+- Geography: Three precincts (13, 52, and 61) were among the strongest predictors of arrest. It’s likely that racial and socioeconomic factors are tied to these precincts as well.
+- Searched: Whether a suspect was searched and if any contraband was found on their body.
+- Suspicion of Particular Crimes:  Four criminal acts were strong predictors of arrest - theft of services, Trespassing, Criminal Possession of a Weapon, and Petit Larceny
+
+**Age appears similarly distributed for individuals arrested and not arrested - the difference is statistically significant**
+
+![download-7](https://user-images.githubusercontent.com/64563191/94903850-686cc200-0468-11eb-9ed8-fc77d48748a8.png)
+
+**Among all individuals in SQF cases, the most common police use of force is applying handcuffs**
+
+![download-9](https://user-images.githubusercontent.com/64563191/94903852-686cc200-0468-11eb-8c5d-f155542fd868.png)
+
+**Among suspects in ongoing investigations, roughly 20% - 25% of individuals are arrested**
+
+
+
+![download-11](https://user-images.githubusercontent.com/64563191/94903854-69055880-0468-11eb-8830-68a35b960481.png)
+![download-10](https://user-images.githubusercontent.com/64563191/94903853-69055880-0468-11eb-970d-d83dc693a7c4.png)
 
 ![download-5](https://user-images.githubusercontent.com/64563191/94903848-67d42b80-0468-11eb-8555-b4360d3abd3a.png)
 ![download-6](https://user-images.githubusercontent.com/64563191/94903849-686cc200-0468-11eb-8498-66a879d901d8.png)
-![download-7](https://user-images.githubusercontent.com/64563191/94903850-686cc200-0468-11eb-9ed8-fc77d48748a8.png)
-![download-8](https://user-images.githubusercontent.com/64563191/94903851-686cc200-0468-11eb-9f1c-4837f0052729.png)
 ![download-9](https://user-images.githubusercontent.com/64563191/94903852-686cc200-0468-11eb-8c5d-f155542fd868.png)
-![download-10](https://user-images.githubusercontent.com/64563191/94903853-69055880-0468-11eb-970d-d83dc693a7c4.png)
+
 ![download-11](https://user-images.githubusercontent.com/64563191/94903854-69055880-0468-11eb-8830-68a35b960481.png)
 ![download-12](https://user-images.githubusercontent.com/64563191/94903855-69055880-0468-11eb-85d4-835f8701802f.png)
 ![download-13](https://user-images.githubusercontent.com/64563191/94903856-69055880-0468-11eb-8833-3657590708f7.png)
