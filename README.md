@@ -98,15 +98,15 @@ Twenty-nine features were found to be most predictive of an arrest. They are gro
 
 **Each of the features below make the list for optimal feature importance, but criminal trespass and theft of services result in the highest likelihood of arrest**
 
+![download-13](https://user-images.githubusercontent.com/64563191/94903856-69055880-0468-11eb-8833-3657590708f7.png)
 
+## Summary & Recommendations
+**Summary & Next Steps:** 
+- Given the data we have access to, it seems that arrests from SQF incidents are made on observable characteristics such as the presence of a weapon, involvement in a crime, or the need for police use of force.  There does, however, seem to be suggestive evidence that bias is present in the reason for SQF. While this analysis examines the factors resulting in arrest from an SQF incident, it seems that bias may be a more prevalent factor in predicting SQF rather than arrest from SQF. 
+- Future work might investigate the bias in approaching individuals for SQF incidents incorporating qualitative research as well. 
 
+**Recommendations:**
+- Collecting qualitative data on officer biases survey materials, focus groups, or interviews
+- Engaging with researchers and community leaders to understand how officers can better serve their communities
 
-![download-11](https://user-images.githubusercontent.com/64563191/94903854-69055880-0468-11eb-8830-68a35b960481.png)
-
-
-![download-5](https://user-images.githubusercontent.com/64563191/94903848-67d42b80-0468-11eb-8555-b4360d3abd3a.png)
-![download-6](https://user-images.githubusercontent.com/64563191/94903849-686cc200-0468-11eb-8498-66a879d901d8.png)
-![download-9](https://user-images.githubusercontent.com/64563191/94903852-686cc200-0468-11eb-8c5d-f155542fd868.png)
-
-![download-12](https://user-images.githubusercontent.com/64563191/94903855-69055880-0468-11eb-85d4-835f8701802f.png)
 
